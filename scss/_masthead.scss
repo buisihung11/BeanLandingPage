@@ -1,6 +1,7 @@
 header.masthead {
   position: relative;
   overflow: hidden;
+  min-height: 100vh;
   padding-top: calc(7rem + 72px);
   padding-bottom: 7rem;
   background: linear-gradient(0deg, $secondary 0%, $primary 100%);
@@ -48,6 +49,10 @@ header.masthead {
     top: -5rem;
     right: 35%;
   }
+}
+
+.display-4 {
+  color:  $primary;
 }
 
 @media (min-width: 992px) {
